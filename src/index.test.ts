@@ -1,4 +1,3 @@
-import { name } from 'faker';
 import helloWorld from './';
 
 describe('helloWorld', () => {
@@ -6,7 +5,7 @@ describe('helloWorld', () => {
   let testName: string;
 
   beforeEach(() => {
-    testName = name.findName();
+    testName = 'Aaron';
     value = helloWorld(testName);
   });
 
